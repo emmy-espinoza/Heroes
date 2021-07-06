@@ -9,7 +9,7 @@ app.listen(port, () => {
   console.log('Servidor corriendo en puerto 3030');
 });
 
-app.get ('/', (req, res)=>{
+app.get('/home',(req, res)=>{
   res.sendFile(path.join(__dirname, '/views/home.html'))
 });
 
