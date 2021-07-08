@@ -8,6 +8,7 @@ body{
   text-align: center;
 }
 body h1 {
+    padding-bottom: 20px;
     font-family: 'Dancing Script';
     font-size: 50px;
     text-align: center;
@@ -22,8 +23,7 @@ body h2{
   font-family: 'Dancing Script';
   font-size: x-large;
   color: darkcyan;
-  
-  
+  text-align: center;
 }
 body h3{
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -36,6 +36,7 @@ nav{
 }
 section img{
       width: 450px; height: 450px;
+      padding-bottom: 20px;
 }
 .central{
   color: chocolate;

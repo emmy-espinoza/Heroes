@@ -9,8 +9,8 @@ app.listen(port, () => {
   console.log('Servidor corriendo en puerto 3030');
 });
 
-app.get('/home',(req, res)=>{
-  res.sendFile(path.join(__dirname, '/views/home.html'))
+app.get('/',(req, res)=>{
+  res.sendFile(path.join(__dirname,'/views/home.html'))
 });
 
 app.get('/benners-lee',(req, res)=>{
